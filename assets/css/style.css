@@ -50,6 +50,8 @@ main {
     max-width: 800px;
     padding: 1rem 40px;
     height: auto;
+    margin: 0 auto;
+    width: 90%;
 }
 
 
