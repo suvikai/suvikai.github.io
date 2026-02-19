@@ -52,6 +52,7 @@ main {
     height: auto;
     margin: 0 auto;
     width: 90%;
+    box-sizing: border-box;
 }
 
 
