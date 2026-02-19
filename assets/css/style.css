@@ -121,6 +121,8 @@ footer {
     .sidebar {
         width: 100%;
         order: -1;
+        margin: 0 auto;
+        box-sizing: border-box;
     }
 
     .content {
