@@ -2,6 +2,9 @@
     "title": "Suvikai Sit",
     "navigationTitle": "Navigation",
     "navigationHome": "Home",
+    "homeTitle": "Suvikai",
+    "homeIntro": "A place for me to be boring",
+    "homeText": "Just an experimental personal website. The plan is that there is no plan and maybe I'll learn something along the way.\n\nPossible outcomes: display art, build something silly, write about things that matter to me... Or just mess with the layout until I get bored.",
     "footer": "© 2026 Suvikai Sit",
     "imageCaptions": {
         "oboy1": "There he is.",
