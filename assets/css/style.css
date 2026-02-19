@@ -94,3 +94,18 @@ footer {
     opacity: 0.6;
     padding: 1rem 40px;
 }
+
+@media (max-width: 768px) {    
+    .layout {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        order: -1;
+    }
+
+    .content {
+        width: 100%;
+    }
+}
