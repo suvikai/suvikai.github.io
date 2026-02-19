@@ -1,75 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Suvikai Sit</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(135deg, #d7f7f1, #a8e6cf);
-            color: #134e4a;
-            display: flex;
-            justify-content: center;
-        }
-
-        .container {
-            max-width: 800px;
-            padding: 40px 20px;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-        }
-
-        .intro {
-            font-size: 1.2rem;
-            font-weight: 300;
-            margin-bottom: 2rem;
-            opacity: 0.8;
-        }
-
-        p {
-            line-height: 1.6;
-            margin-bottom: 2rem;
-        }
-
-        img {
-            max-width: 100%;
-            border-radius: 12px;
-            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        footer {
-            margin-top: 3rem;
-            font-size: 0.9rem;
-            opacity: 0.6;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <h1>Suvikai</h1>
-        <div class="intro">A place for me to be boring</div>
+    <div class="layout">
+        <aside class="sidebar">
+            <h1>Navigation</h1>
+            <nav>
+                <a href="index.html">Home</a>
+            </nav>
+        </aside>
 
-        <p>
-            Just an experimental personal website. The plan is that there is no plan and maybe I'll learn something along the way.
-        </p>
-        <p>
-            Possible outcomes: display art, build something silly, write about things that matter to me. Or don't. It doesn't matter.
-        </p>
+        <div class="content">
+            <main>
+                <h1>Suvikai</h1>
+                <div class="intro">A place for me to be boring</div>
+                <p>
+                    Just an experimental personal website. The plan is that there is no plan and maybe I'll learn
+                    something
+                    along the way.
+                </p>
+                <p>
+                    Possible outcomes: display art, build something silly, write about things that matter to me...
+                    Or just
+                    mess with the layout until I get bored.
+                </p>
 
-        <img src="assets/oboy.png" 
-             alt="Just a boy."
-             style="display: block; margin: 0 auto; width: 50%;">
+                <img src="assets/oboy.png" alt="Just a boy.">
+            </main>
 
-        <footer>
-            Enjoy your stay. 
-        </footer>
+            <footer>
+                Enjoy your stay.
+            </footer>
+        </div>
     </div>
 </body>
+
 </html>
