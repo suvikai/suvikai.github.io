@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Suvikai Sit</title>
+    <title id="title"></title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
@@ -11,9 +11,9 @@
 <body>
     <div class="layout">
         <aside class="sidebar">
-            <h1>Navigation</h1>
+            <h1 id="navigationTitle"></h1>
             <nav>
-                <a href="index.html">Home</a>
+                <a href="index.html" id="navigationHome"></a>
             </nav>
         </aside>
 
@@ -35,30 +35,24 @@
                 <div class="image-grid">
                     <figure class="image-wrapper">
                         <img src="assets/oboy.png" alt="Just a boy.">
-                        <figcaption>
-                            There he is.
-                        </figcaption>
+                        <figcaption id="oboy1"></figcaption>
                     </figure>
                     <figure class="image-wrapper">
                         <img src="assets/oboy2.png" alt="Just another boy.">
-                        <figcaption>
-                            There he is again.
-                        </figcaption>
+                        <figcaption id="oboy2"></figcaption>
                     </figure>
                     <figure class="image-wrapper">
                         <img src="assets/oboy3.png" alt="Just a third boy.">
-                        <figcaption>
-                            There he is, once more.
-                        </figcaption>
+                        <figcaption id="oboy3"></figcaption>
                     </figure>
                 </div>
             </main>
 
-            <footer>
-                © 2026 Suvikai Sit
-            </footer>
+            <footer id="footer"></footer>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
