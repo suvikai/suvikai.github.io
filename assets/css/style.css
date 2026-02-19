@@ -30,6 +30,8 @@ main {
     color: #d7f7f1;
     padding: 2rem;
     height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
