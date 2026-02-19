@@ -1,7 +1,7 @@
 fetch('content.json')
   .then(response => response.json())
   .then(data => {
-    document.getElementById('title').textContent = data.header;
+    document.title = data.title;
     document.getElementById('navigationTitle').textContent = data.navigationTitle;
     document.getElementById('navigationHome').textContent = data.navigationHome;
     document.getElementById('footer').textContent = data.footer;
