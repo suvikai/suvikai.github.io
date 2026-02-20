@@ -3,8 +3,8 @@
     "header": "Gallery",
     "intro": "Just a collection of images.",
     "images": [
-    { "src": "../assets/images/oboy.png", "caption": "Just a boy." },
-    { "src": "../assets/images/oboy2.png", "caption": "Just another boy." },
-    { "src": "../assets/images/oboy3.png", "caption": "One more boy." }
+    { "src": "../assets/images/oboy.png", "alt": "A low-poly 3d model of a character with a large head on a small body facing forward.", "caption": "Just a boy." },
+    { "src": "../assets/images/oboy2.png", "alt": "A low-poly 3d model of a character with a large head on a small body facing 3/4 to the left.", "caption": "Just another boy." },
+    { "src": "../assets/images/oboy3.png", "alt": "A low-poly 3d model of a character with a small head of a large body facing 3/4 to the left.", "caption": "One more boy." }
   ]
 }

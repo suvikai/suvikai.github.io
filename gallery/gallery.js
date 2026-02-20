@@ -13,7 +13,7 @@ fetch('gallery.json')
             const figure = document.createElement('figure');
             const image = document.createElement('img');
             image.src = img.src;
-            image.alt = img.caption || '';
+            image.alt = img.alt || '';
             const caption = document.createElement('figcaption');
             caption.textContent = img.caption || '';
             figure.appendChild(image);
