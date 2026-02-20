@@ -1,4 +1,4 @@
-# suvikai.github.io
+# [suvikai.github.io](https://suvikai.github.io/)
 GitHub Pages shenaniganery.
 
 ## Purpose
