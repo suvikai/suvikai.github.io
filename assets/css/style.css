@@ -13,9 +13,12 @@ body {
     align-items: stretch;
 }
 
+body.loading {
+    visibility: hidden;
+}
+
 main {
     flex: 1;
-    padding: 1rem;
 }
 
 .layout {
@@ -28,7 +31,7 @@ main {
 .sidebar {
     background: #134e4a;
     color: #d7f7f1;
-    padding: 2rem;
+    padding: 1rem;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -48,7 +51,7 @@ main {
     flex-direction: column;
     flex: 1;
     max-width: 800px;
-    padding: 1rem 40px;
+    padding: 1rem;
     height: auto;
     margin: 0 auto;
     width: 90%;
@@ -106,7 +109,7 @@ footer {
     margin-top: 3rem;
     font-size: 0.9rem;
     opacity: 0.6;
-    padding: 1rem 40px;
+    padding: 1rem;
 }
 
 #intro {

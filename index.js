@@ -1,3 +1,7 @@
+if (window.location.protocol !== 'file:') {
+    document.body.classList.add('loading');
+}
+
 fetch('index.json')
   .then(response => response.json())
   .then(data => {
@@ -8,6 +12,7 @@ fetch('index.json')
     document.getElementById('oboy1').textContent = data.imageCaptions.oboy1;
     document.getElementById('oboy2').textContent = data.imageCaptions.oboy2;
     document.getElementById('oboy3').textContent = data.imageCaptions.oboy3;
+    document.body.classList.remove('loading');
   })
   .catch(error => {
     console.error('Error loading content:', error);
