@@ -9,7 +9,7 @@ fetch('about.json')
     document.getElementById('header').textContent = data.header;
     document.getElementById('intro').textContent = data.intro;
     document.getElementById('text').textContent = data.text;
-    document.body.classList.remove('loading');
+    document.body.classList.add('loaded');
   })
   .catch(error => {
     console.error('Error loading content:', error);

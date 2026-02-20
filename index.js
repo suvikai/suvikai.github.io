@@ -12,7 +12,7 @@ fetch('index.json')
     document.getElementById('oboy1').textContent = data.imageCaptions.oboy1;
     document.getElementById('oboy2').textContent = data.imageCaptions.oboy2;
     document.getElementById('oboy3').textContent = data.imageCaptions.oboy3;
-    document.body.classList.remove('loading');
+    document.body.classList.add('loaded');
   })
   .catch(error => {
     console.error('Error loading content:', error);
