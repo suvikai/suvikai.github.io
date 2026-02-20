@@ -1,0 +1,10 @@
+{
+    "title": "Suvikai Sit - Gallery",
+    "header": "Gallery",
+    "intro": "Just a collection of images.",
+    "images": [
+    { "src": "../assets/images/oboy.png", "caption": "Just a boy." },
+    { "src": "../assets/images/oboy2.png", "caption": "Just another boy." },
+    { "src": "../assets/images/oboy3.png", "caption": "One more boy." }
+  ]
+}
