@@ -48,6 +48,14 @@ main {
     align-items: center;
 }
 
+.sidebar nav a {
+    text-decoration: none;
+}
+
+.sidebar nav a.active {
+    text-decoration: underline;
+}
+
 .content {
     display: flex;
     flex-direction: column;
