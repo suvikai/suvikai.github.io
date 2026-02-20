@@ -14,11 +14,19 @@ fetch('gallery.json')
             const image = document.createElement('img');
             image.src = img.src;
             image.alt = img.alt || '';
+
             const caption = document.createElement('figcaption');
             caption.textContent = img.caption || '';
+
             figure.appendChild(image);
             figure.appendChild(caption);
             grid.appendChild(figure);
+
+            if (image.complete) {
+                image.classList.add("loaded");
+            } else {
+                image.addEventListener("load", () => image.classList.add("loaded"));
+            }
         });
         document.body.classList.add('loaded');
     })
